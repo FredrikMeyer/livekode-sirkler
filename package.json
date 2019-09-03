@@ -1,0 +1,20 @@
+{
+  "name": "js-circles-generative",
+  "version": "1.0.0",
+  "description": "Generativ kunst i ren js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "pika-web",
+    "start": "serve ./"
+  },
+  "author": "Fredrik Meyer",
+  "license": "ISC",
+  "devDependencies": {
+    "@pika/web": "^0.5.3",
+    "serve": "^11.1.0"
+  },
+  "dependencies": {
+    "d3-random": "^2.0.0"
+  }
+}
