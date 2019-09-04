@@ -1,4 +1,4 @@
-import { randomUniform, randomNormal } from '/web_modules/d3-random.js'
+import { randomNormal } from '/web_modules/d3-random.js'
 
 const { PI } = Math
 
@@ -32,8 +32,9 @@ function drawRandomLineOnCircle(cx, cy, r, meanAngle) {
     ctx.stroke()
 }
 
-function drawCircles() {
+function drawLines() {
     ctx.lineWidth = 0.05
+    ctx.strokeStyle = `rgb(255, 255, 255, 0.1)`
     for(let i = 0; i < 1000; i++) {
         drawRandomLineOnCircle(CX, CY, radius, 0)
         drawRandomLineOnCircle(CX, CY, radius, PI / 3)
@@ -43,6 +44,4 @@ function drawCircles() {
 ctx.fillStyle = 'black'
 ctx.fillRect(0, 0, W, H)
 
-
-ctx.strokeStyle = `rgb(255, 255, 255, 0.1)`
-drawCircles()
+drawLines()
