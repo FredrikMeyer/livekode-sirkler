@@ -19,18 +19,16 @@ canvas.height = H
 // Forklar ide!
 
 ctx.fillStyle = 'black'
+ctx.strokeStyle = 'white'
 ctx.fillRect(0, 0, W, H)
 
 // Function to make random points on a circles
-
 function randomPointOnCircle(meanAngle) {
 }
 
 /* console.log(randomPointOnCircle(0)) */
 
 // Function to draw a random line on a circle
-
-ctx.strokeStyle = 'white'
 
 function drawRandomLineOnCircle(meanAngle) {
 }
