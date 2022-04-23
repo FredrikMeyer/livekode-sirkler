@@ -12,7 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "@pika/web": "^0.5.3",
-    "serve": "^11.2.0"
+    "serve": "^13.0.2"
   },
   "dependencies": {
     "d3-random": "^2.0.1"
