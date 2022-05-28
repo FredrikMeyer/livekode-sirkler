@@ -1,4 +1,4 @@
-import { randomNormal } from '/web_modules/d3-random.js'
+import { randomNormal } from 'd3-random'
 
 const { PI } = Math
 
