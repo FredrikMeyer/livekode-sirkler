@@ -13,6 +13,6 @@
     "snowpack": "^3.8.8"
   },
   "dependencies": {
-    "d3-random": "^2.0.1"
+    "d3-random": "^3.0.1"
   }
 }
